@@ -1,0 +1,398 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body,.header,.section,.footer{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.bb{border:0.1px solid red;}
+
+.w-left, .about-left{
+	float: left;
+}
+
+.w-right, .about-right{
+	float: right;
+}
+
+.clearb{
+	clear: both;
+}
+
+.header{
+	height: 1080px;
+	width:100%;
+	background: image-url("wotoken1.gif") no-repeat;
+	/*background: url(../image/test_hu_huo.gif) no-repeat;*/
+	background-position: center;
+	background-size: cover;
+}
+
+.header,.about,.news,.links,.announcement,.footer{
+	width: 100%;
+	min-width: 1200px;
+}
+
+.h-top{
+	height:42px;
+	font-family:Arial-Black;
+	color:rgba(255,255,255,1);
+	line-height:42px;
+	padding-top: 60px;
+}
+
+.h-top-l a,.h-top-r a{
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+
+.h-top-l a{
+	font-weight:900;
+	font-size:30px;
+}
+
+.h-top-r{
+	text-align: right;
+  vertical-align: middle;
+}
+
+#lang-fa{
+	position: relative;
+	bottom: 2px;
+}
+
+.other-lang{
+	display: none;
+	text-align: left;
+	position: relative;
+	bottom: 40px;
+}
+
+.header .h-middle{
+	height: 343px;
+	width: 1092px;
+	text-align: center;
+	margin-top: 256px;
+}
+
+.middle1,.middle2,.middle3,.middle4{
+	margin: auto;
+}
+
+.middle1{
+	width:349px;
+	height:48px;
+	font-size:40px;
+	font-family:Helvetica-Bold;
+	font-weight:bold;
+	color:rgba(0,223,255,1);
+	line-height:48px;
+}
+
+.middle2{
+	width:689px;
+	height:75px;
+	font-size:60px;
+	font-family:Arial-Black;
+	font-weight:900;
+	color:rgba(255,255,255,1);
+	line-height:67px;
+}
+
+.middle3{
+	width:1092px;
+	height:75px;
+	font-size:30px;
+	font-family:Helvetica;
+	color:rgba(255,255,255,1);
+	line-height:67px;
+}
+
+.middle4 a{
+	display: inline-block;
+	width:250px;
+	height:75px;
+	background: rgb(255,121,0);
+	border: 1px solid transparent;
+	font-size:30px;
+	font-family:Helvetica-Bold;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:75px;
+	letter-spacing:1px;
+	text-decoration: none;
+	border-radius: 5px;
+	margin:auto 10px;
+}
+
+.middle4 a img{
+	position: relative;
+	top:10px;
+}
+
+.footer{
+	height: 100px;
+	background-color: #333;
+	color:#949494;
+	font-size: 18px;
+}
+
+.footer-right{
+	width: 380px;
+	height: 30px;
+	color: #fff;
+}
+
+.footer-right a img{
+	margin: auto 14px;
+}
+
+.content{
+	width:1200px;
+	margin: auto;
+	line-height: 100px;
+}
+
+/*about*/
+
+.about{
+	height:720px;
+	background:rgba(245,245,245,1);
+}
+
+.about .content{
+	padding:108px 0;
+}
+
+.about-left, .about-right{
+	width:600px;
+}
+
+.about-left img{
+	position: relative;
+	top:69px;
+	left:-40px;
+}
+
+.about-title{
+	width:447px;
+}
+
+.about-title, .news-title, .links-title,.announcement-title{
+	height:72px;
+	font-size:60px;
+	font-family:Helvetica;
+	color:rgba(51,51,51,1);
+	line-height:72px;
+	text-align: left;
+}
+
+.about-right{
+	text-align: left;
+}
+
+.about-right-content{
+	padding-left:200px;
+}
+
+.about-right p{
+	width:400px;
+	height:240px;
+	font-size:18px;
+	font-family:PingFangSC-Semibold;
+	font-weight:600;
+	color:rgba(51,51,51,1);
+	line-height:40px;
+	letter-spacing:1px;
+}
+
+.d-whitepaper{
+	width:250px;
+	height:75px;
+	background:linear-gradient(180deg,rgba(1,225,184,1) 0%,rgba(73,222,249,1) 100%);
+	border-radius:8px;
+	text-align: center;
+}
+
+.d-whitepaper a{
+	width:144px;
+	height:36px;
+	font-size:30px;
+	font-family:Helvetica-Bold;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:75px;
+	text-decoration: none;
+}
+
+/*news*/
+.news{
+	height:700px;
+}
+
+.news .content{
+	padding:104px 0;
+}
+
+.news-title{
+	width:601px;
+}
+
+.news-content{
+	margin-top: 60px;
+}
+
+.news-content .item{
+	float: left;
+	width:360px;
+	height:360px;
+	background:rgba(245,245,245,1);
+	box-shadow:0px 2px 4px 0px rgba(214,209,209,0.5);
+}
+
+.item img{
+	margin-top: 44px;
+}
+
+.item-content{
+	width:360px;
+	height:150px;
+	background:rgba(245,245,245,1);
+}
+
+.item-title{
+	line-height: normal;
+}
+
+.news .item b{
+	width:180px;
+	height:22px;
+	font-size:18px;
+	font-family:Helvetica-Bold;
+	font-weight:bold;
+	color:rgba(51,51,51,1);
+	line-height:22px;
+	letter-spacing:1px;
+}
+
+.item-p{
+	width:340px;
+	height:44px;
+	font-size:16px;
+	font-family:Helvetica;
+	color:rgba(51,51,51,1);
+	line-height:19px;
+	letter-spacing:1px;
+	text-align: justify;
+	padding:0 10px;
+}
+
+.news-content .item:nth-child(2){
+	margin:auto 60px;
+}
+
+.links{
+	height:800px;
+	background:rgba(245,245,245,1);
+}
+
+.links .content{
+	padding: 119px 0;
+}
+
+.links-content{
+	margin-top: 60px;
+}
+
+.links-title{
+	width:431px;
+}
+
+.links-logo{
+	width: 240px;
+	height: 100px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+/*announcement*/
+.announcement{
+	height:780px;
+}
+
+.announcement .content{
+	padding:110px 0;
+}
+
+.announcement-title{
+	width:404px;
+}
+
+.a-item{
+	height:140px;
+	position: relative;
+	background:rgba(245,245,245,1);
+	margin: 20px 0 10px;
+}
+
+.a-left{
+	float: left;
+	width: 200px;
+	height: 140px;
+	line-height: 140px;
+}
+
+.a-left .day{
+	width:45px;
+	height:48px;
+	font-size:40px;
+	font-family:Helvetica;
+	color:rgba(148,148,148,1);
+	line-height:48px;
+	margin: 20px;
+	
+}
+
+.a-left .month{
+	width:98px;
+	height:24px;
+	font-size:20px;
+	font-family:Helvetica;
+	color:rgba(148,148,148,1);
+	line-height:24px;
+	margin: 20px
+}
+
+.a-right{
+	width:1000px;
+	float: right;
+	height: 140px;
+	line-height: 140px;
+	text-align: left;
+}
+
+.a-right .a-title{
+	height:36px;
+	font-size:30px;
+	font-family:Helvetica-Bold;
+	font-weight:bold;
+	color:rgba(51,51,51,1);
+	line-height:36px;
+	margin:20px 20px 0 20px;
+}
+
+.a-right .a-content{
+	width:1000px;
+	height:38px;
+	font-size:16px;
+	font-family:Helvetica;
+	color:rgba(51,51,51,1);
+	line-height:19px;
+	margin: 20px 20px 0 20px;
+}
+
+
+
