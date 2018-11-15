@@ -13,7 +13,7 @@ main(){
     retval=$?
     if [ $retval -eq 0 ];
     then
-	cd /home&&gem install mysql2 -v '0.5.2'&&bundle install&&RAILS_ENV=production bundle exec rake db:migrate&&bundle exec whenever --update-crontab -s environment=production&&puma -e production  
+	cd /home&&gem install mysql2 -v '0.5.2'&&bundle install&&RAILS_ENV=production &&puma -e production
     else
 	echo 'error'
     fi
